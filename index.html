@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcessibilidadeWeb - Guia Completo de Acessibilidade Digital</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#home">
+                    <span class="brand-icon">♿</span> AcessibilidadeWeb
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Início</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Soluções
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/" target="_blank">Padrões WCAG</a></li>
+
+                                <li><a class="dropdown-item" href="#blocos">Acessibilidade Web</a></li>
+
+                                <li><hr class="dropdown-divider"></li>
+                                
+                                <li><a class="dropdown-item" href="https://accessibe-com.translate.goog/glossary/accessibility-audit?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc" target="_blank">Auditoria de Acessibilidade</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre Nós</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-primary ms-2" href="#contato">Quero Contratar</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="hero-title">Acessibilidade Digital para Todos!</h1>
+                    <p class="hero-subtitle">Transforme sua presença digital em um espaço inclusivo e acessível para todos os usuários, independentemente de suas limitações.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-lg" onclick="scrollTo('#blocos')">Comece Agora</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="valores-section">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="valor-card">
+                        <div class="valor-icon">🎯</div>
+                        <h5>Inclusão</h5>
+                        <p>Garantir que todos tenham acesso igual ao conteúdo digital.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="valor-card">
+                        <div class="valor-icon">🔒</div>
+                        <h5>Segurança</h5>
+                        <p>Proteger dados e privacidade de todos os usuários.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="valor-card">
+                        <div class="valor-icon">⚡</div>
+                        <h5>Performance</h5>
+                        <p>Otimizar para melhor experiência em qualquer dispositivo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="valor-card">
+                        <div class="valor-icon">📊</div>
+                        <h5>Conformidade</h5>
+                        <p>Atender aos padrões WCAG e legislações de acessibilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blocos" class="blocos-section">
+        <div class="container">
+            <h2 class="section-title">Principais Pilares da Acessibilidade</h2>
+            <div class="row g-4 mt-4">
+                
+                <div class="col-lg-6">
+                    <div class="bloco-card">
+                        <div class="bloco-header"><h3>Percepcibilidade</h3></div>
+                        <div class="bloco-body">
+                            <p>O conteúdo deve ser apresentado de forma que todos possam percebê-lo.</p>
+                            <ul>
+                                <li>Alternativas de texto para imagens</li>
+                                <li>Legendas para vídeos</li>
+                                <li>Contraste adequado de cores</li>
+                                <li>Tamanho de fonte legível</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="bloco-card">
+                        <div class="bloco-header"><h3>Operabilidade</h3></div>
+                        <div class="bloco-body">
+                            <p>Todos devem conseguir navegar e usar a interface.</p>
+                            <ul>
+                                <li>Navegação por teclado</li>
+                                <li>Tempo suficiente para interações</li>
+                                <li>Evitar conteúdo que cause convulsões</li>
+                                <li>Mecanismos de navegação claros</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="bloco-card">
+                        <div class="bloco-header"><h3>Compreensibilidade</h3></div>
+                        <div class="bloco-body">
+                            <p>O conteúdo deve ser fácil de entender.</p>
+                            <ul>
+                                <li>Linguagem clara e simples</li>
+                                <li>Estrutura lógica</li>
+                                <li>Instruções claras</li>
+                                <li>Ajuda contextual</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="bloco-card">
+                        <div class="bloco-header"><h3>Robustez</h3></div>
+                        <div class="bloco-body">
+                            <p>O conteúdo deve funcionar com tecnologias assistivas.</p>
+                            <ul>
+                                <li>HTML semântico</li>
+                                <li>Compatibilidade com leitores de tela</li>
+                                <li>Código limpo</li>
+                                <li>Testes com acessibilidade</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE EDITADO -->
+    <section id="sobre" class="sobre-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>Sobre o Projeto</h2>
+                    <p>Este site faz parte de um <strong>projeto de extensão da faculdade</strong>, voltado para promover a conscientização e aplicação da <strong>acessibilidade digital</strong> em sites.</p>
+                    <p>Nosso objetivo é incentivar estudantes e profissionais a adotarem práticas acessíveis, garantindo uma web mais inclusiva para todos.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="sobre-image">
+                        <div class="placeholder-image">
+                            <img src="/img/e7d6d8b9-b616-4a7d-a644-611e4fc6b5f0.png" alt="imagem-acessibilidade">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section">
+        <div class="container">
+            <h2 class="section-title text-center">Entre em Contato</h2>
+            <div class="row mt-5">
+                <div class="col-lg-8 mx-auto">
+                    <form class="contato-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="nome" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" placeholder="seu.email@example.com" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="telefone" class="form-label">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="assunto" class="form-label">Assunto</label>
+                                <input type="text" class="form-control" id="assunto" placeholder="Assunto da mensagem" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensagem" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem aqui..." required></textarea>
+                        </div>
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Enviar Mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-3">
+                    <h5>AcessibilidadeWeb</h5>
+                    <p>Promovendo inclusão digital e acessibilidade para todos.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Links Rápidos</h5>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#blocos">Pilares</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Recursos</h5>
+                    <ul class="footer-links">
+                        <li><a href="https://www.w3c.br/traducoes/wcag/wcag21-pt-BR/" target="_blank">Padrões WCAG</a></li>
+                        <li><a href="#blocos">Pilares</a></li>
+                        <li><a href="https://accessibe-com.translate.goog/glossary/accessibility-audit?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc" target="_blank">Auditoria</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Contato</h5>
+                    <ul class="footer-links">
+                        <li>📧 contatoacessibilidade@gmail.com</li>
+                        <li>📍 São Sebastião do Paraíso - MG</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 AcessibilidadeWeb. Todos os direitos reservados.</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
